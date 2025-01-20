@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@/styles/infinite-marquee.css";
+
+/* styles/globals.css */
+@import "~react-toastify/dist/ReactToastify.css";
+
+.my-custom-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+  opacity: 0.5;
+  transform: scale(0.7);
+}
+
+.slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Marquee */
+
+.containerMarquee {
+  display: flex;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.marquee {
+  display: flex;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  min-width: min-content;
+}
+
+.brand {
+  height: 60px;
+  width: 120px;
+  padding: 0px 16px;
+  object-fit: contain;
+}
+
+.firstMarquee {
+  display: flex;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+}
