@@ -16,7 +16,7 @@ const AboutPart = () => {
       </div>
       <div className="flex flex-col mb-5 lg:mb-0">
         <h1 data-aos="fade-right" data-aos-duration="700" className="my-5 md:my-8 text-4xl font-[400]">
-          About WSO
+          About RMA
         </h1>
         <div className="flex flex-col md:flex-row">
           {/* Left side text + Scroll option */}
@@ -41,7 +41,7 @@ const AboutPart = () => {
                 Want to be a member?
               </h1>
               <p className="my-5 text-white text-xs font-[200]">
-                WSO owes its genesis to the realization that there was a need for an organized movement of partners from across the globe to build a healthy (content for this)
+              RMA 
               </p>
               <Link href={`/user/membership`} className="p-3 px-5 text-primaryColor rounded-lg font-[600] bg-white text-xs">
                 Register as a Member
