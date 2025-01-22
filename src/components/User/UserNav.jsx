@@ -79,7 +79,7 @@ const UserNav = () => {
         <Link href={'/'} className="logo">
           {
             path == '/' ?
-              <Image src={log} alt="logo" className="w-[100px]" /> :
+              <Image src={log} alt="logo" className="w-[100px] " /> :
               <Image src={log1} alt="logo" className="w-[100px]" />
           }
         </Link>
@@ -157,7 +157,7 @@ const UserNav = () => {
       <div className="max-w-[1280px] mx-auto w-full md:hidden flex justify-between items-center ">
         <>
           <div className="logo">
-            <Image src={log} alt="logo" className="w-[220px]" />
+            <Image src={log} alt="logo" className="w-[80px]" />
           </div>
 
           <div className="pe-3">
