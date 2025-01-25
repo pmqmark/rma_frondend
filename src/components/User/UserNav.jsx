@@ -31,7 +31,7 @@ const UserNav = () => {
 
   const [dropArr, setDropArr] = useState([
     { title: "Media", value: false },
-    { title: "WSO Initiatives", value: false },
+    { title: "RMA Initiatives", value: false },
   ]);
 
   useEffect(() => {
