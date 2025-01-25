@@ -14,7 +14,6 @@ export const guestEventRoute = "/api/event"; // <= + /:id
 
 // Member Routes
 export const Addmember = "/api/admin/member";
-
 // Member Routes
 export const memberPublicationRoute = "/api/member/publication";
 export const memberNewsletterRoute = "/api/member/newsletter";
@@ -22,6 +21,7 @@ export const memberNewsletterRoute = "/api/member/newsletter";
 // company Routes
 export const getAllCompany = "/api/company";
 export const CompanyAPI = "/api/admin/company";
+
 
 // Admin Routes
 export const adminNewsRoute = "/api/admin/news";
@@ -43,6 +43,9 @@ export const getAllPublications = '/api/member/publication'
 
 // newsletter
 export const getAllNewsletters = '/api/member/newsletter'
+// GetAllEnquirys
+export const getAllEnquirys = '/api/admin/contact'
+
 
 // common image upload route
 export const uploadImageUrl = '/api/admin/upload'
