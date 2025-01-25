@@ -36,6 +36,11 @@ export const navBar =  [
         "subTitle":"newsletters",
         "subLink":"/user/newsletter"
       },
+      {
+        "lid": 5,
+        "subTitle":"Events",
+        "subLink":"/user/events"
+      },
     ]
   },
   {
