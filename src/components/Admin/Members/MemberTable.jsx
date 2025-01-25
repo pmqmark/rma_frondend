@@ -76,7 +76,7 @@ const MemberTable = () => {
                                         ) : (
                                             <img
                                                 className="max-h-10 cursor-pointer rounded-full w-10"
-                                                src={`${item.idProof.location}`}
+                                                src={`${item?.idProof?.location}`}
                                                 alt="idProof"
                                             />
                                         )}

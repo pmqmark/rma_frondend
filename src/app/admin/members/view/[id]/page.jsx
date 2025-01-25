@@ -3,6 +3,7 @@ import NormalTextField from '@/components/Admin/Members/NormalTextField'
 import StatusIndicator from '@/components/Admin/Members/StatusIndicator';
 import useAxiosPrivate from '@/hooks/useAxiosPrivate';
 import { adminMemberRoute, baseUrl } from '@/utils/Endpoint';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 import { IoDocumentText } from 'react-icons/io5';
@@ -40,7 +41,7 @@ function Page({ params }) {
 
 
     const fieldData = [
-        { label: "Username", placeholder: "Username", key: 'username' },
+        // { label: "Username", placeholder: "Username", key: 'username' },
         { label: "Name of the Applicant", placeholder: "Name of the Applicant", key: "applicantName" },
         { label: "Address", placeholder: "Address", type: "textarea", key: "address" },
         { label: "State/Province", placeholder: "State", key: "state" },
@@ -103,14 +104,14 @@ function Page({ params }) {
                 </div>
                 <div className='w-[64%] max-md:w-full'>
                     {data?.idProof?.location ? (
-                        <a href={`${baseUrl}${data?.idProof?.location}`} target="_blank" rel="noopener noreferrer">
+                        <a href={`${data?.idProof?.location}`} target="_blank" rel="noopener noreferrer">
                             {/\.(pdf|doc|docx)$/.test(data.idProof.location) ? (
                                 // Render a dummy image for PDF or Word files
                                 <IoDocumentText size={40} />
                             ) : (
                                 <img
                                     className="max-h-20 cursor-pointer rounded"
-                                    src={`${baseUrl}${data.idProof.location}`}
+                                    src={`${data.idProof.location}`}
                                     alt="idProof"
                                 />
                             )}
@@ -120,6 +121,25 @@ function Page({ params }) {
                     )}
                 </div>
             </div>
+            {/* <div className='flex max-md:flex-col justify-between border-t w-10/12 max-md:w-full border-gray-3 py-5'>
+                <div className='w-[35%] max-md:w-full font-medium'>
+                    <h2>Company Logo </h2>
+                </div>
+                <div className='w-[64%] max-md:w-full'>
+                    {data?.logo?.location ? (
+                    
+                                <img
+                                    className="max-h-20 cursor-pointer rounded"
+                                    src={`${data.logo.location}`}
+                                    alt="idProof"
+                                />
+                        
+                        
+                    ) : (
+                        <p>No Company Logo available</p>
+                    )}
+                </div>
+            </div> */}
 
 
             {
@@ -130,6 +150,18 @@ function Page({ params }) {
                 ))
             }
 
+            <div>
+            <Link
+  href={{
+    pathname: "/admin/members/addmember",
+    query: { memberId:id }, // Replace "123" with the actual member ID
+  }}
+>
+  <button className="bg-primary-green px-5 h-fit py-3 ml-4 text-white text-base font-semibold rounded-lg">
+    Edit Member
+  </button>
+</Link>
+            </div>
         </div>
     )
 }
