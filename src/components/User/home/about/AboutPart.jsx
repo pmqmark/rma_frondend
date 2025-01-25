@@ -26,7 +26,7 @@ const AboutPart = () => {
             </p>
 
             <p className="text-xs md:text-sm text-wrap md:w-[90%] mt-3 text-black/80">
-              {/* WSO seeks to identify areas of potential growth, ensure proper allocation of resources, interact with the academia, engage with the governments on legislations and stand by and help the farmer to increase production and productivity through eco-friendly methods. */}
+              {/* RMA seeks to identify areas of potential growth, ensure proper allocation of resources, interact with the academia, engage with the governments on legislations and stand by and help the farmer to increase production and productivity through eco-friendly methods. */}
             </p>
 
             <Link href={`/user/about`} className="bg-primaryColor text-white text-xs md:text-sm p-3 px-5 rounded-lg lg:mt-5 hidden w-fit lg:flex">

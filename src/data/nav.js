@@ -26,16 +26,21 @@ export const navBar =  [
         "subTitle":"activities",
         "subLink":"/user/activities"
       },
-      // {
-      //   "lid": 3,
-      //   "subTitle":"publications",
-      //   "subLink":"/user/publication"
-      // },
-      // {
-      //   "lid": 4,
-      //   "subTitle":"newsletters",
-      //   "subLink":"/user/newsletter"
-      // },
+      {
+        "lid": 3,
+        "subTitle":"publications",
+        "subLink":"/user/publication"
+      },
+      {
+        "lid": 4,
+        "subTitle":"newsletters",
+        "subLink":"/user/newsletter"
+      },
+      {
+        "lid": 5,
+        "subTitle":"Events",
+        "subLink":"/user/events"
+      },
     ]
   },
   {

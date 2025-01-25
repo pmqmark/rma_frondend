@@ -11,15 +11,19 @@ import { RxExit } from "react-icons/rx";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { getSession, signOut } from "next-auth/react";
 import { IoMdPerson } from "react-icons/io";
+import { FaEnvelopeOpenText } from "react-icons/fa";
+import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
 import Image from "next/image";
 
 const menuItems = [
   { href: "/admin/news", icon: FiHome, label: "Latest News" },
   { href: "/admin/members", icon: IoMdPerson, label: "Manage Members" },
+  { href: "/admin/company", icon: HiOutlineBuildingOffice2, label: "Manage Company" },
   { href: "/admin/applications", icon: MdOutlineEqualizer, label: "Manage Applications" },
   { href: "/admin/publication", icon: ImStack, label: "Publications" },
   { href: "/admin/newsletter", icon: FiCheckSquare, label: "Newsletter" },
   { href: "/admin/events", icon: GrFlag, label: "Events" },
+  { href: "/admin/enquiry", icon: FaEnvelopeOpenText , label: "Enquiry" },
 ];
 
 const getUser = async () => {

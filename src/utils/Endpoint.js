@@ -13,8 +13,15 @@ export const guestNewsRoute = "/api/news"; // <= + /:id
 export const guestEventRoute = "/api/event"; // <= + /:id
 
 // Member Routes
+export const Addmember = "/api/admin/member";
+
+// Member Routes
 export const memberPublicationRoute = "/api/member/publication";
 export const memberNewsletterRoute = "/api/member/newsletter";
+
+// company Routes
+export const getAllCompany = "/api/company";
+export const CompanyAPI = "/api/admin/company";
 
 // Admin Routes
 export const adminNewsRoute = "/api/admin/news";
