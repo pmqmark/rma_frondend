@@ -76,7 +76,7 @@ function SideBar() {
         <div className="flex flex-col justify-between h-full max-md:h-[90%]">
           <div className="flex flex-col gap-5">
             <h1 className="font-[Clash Display] text-xl font-extrabold text-green-900">
-              WSO
+              RMA
             </h1>
             <div className="flex items-center border border-gray-500 rounded-md mt-3">
               <CiSearch className="ml-2 text-gray-950" size={22} />
