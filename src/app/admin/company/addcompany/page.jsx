@@ -35,7 +35,7 @@ const Page = () => {
             const fetchMemberDetails = async () => {
                 try {
                     const res = await axiosPrivate.get(`${getAllCompany}/${companyId}`);
-                    setuserdata(res?.data.result);
+                    setuserdata(res?.data?.result);
                     console.log(res?.data)
                     setLogo(userdata.logo?.location);
                 } catch (error) {

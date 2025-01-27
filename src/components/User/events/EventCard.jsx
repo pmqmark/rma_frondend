@@ -7,9 +7,13 @@ import { baseUrl } from "@/utils/Endpoint";
 
 const EventCard = ({ data }) => {
   console.log(data)
+  console.log("Event Data: ", data);
+  console.log("Thumbnail: ", data?.thumbnail);
+console.log("Thumbnail Location: ", data?.thumbnail?.location);
+
   return (
     <div className="w-full sm:w-[300px] h-[260px] flex flex-col rounded-lg overflow-hidden relative">
-      {data?.thumbnail ? (
+      {data?.thumbnail? (
         <img
           src={`${baseUrl}${data?.thumbnail?.location}`}
           alt="thumbnail"
