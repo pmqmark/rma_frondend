@@ -166,19 +166,19 @@ const Page = () => {
             <h2>Attach Company logo File</h2>
           </div>
           <div className="w-6/12 max-md:w-full">
-            <FileUploadField
-              sizeLimit={1024 * 1024 * 5}
-              typeNames={["JPEG", "PNG", "GIF", "PDF"]}
-              fileTypes={[
-                "image/jpeg",
-                "image/png",
-                "image/gif",
-                "application/pdf",
-              ]}
-              value={userdata.logo}
-              onChange={(file) => handleChange("logo", file)}
-              url={uploadGustImageUrl}
-            />
+          <FileUploadField
+  value={userdata.logo} // Ensure this is a File
+  onChange={(file) => {
+    if (file instanceof File) {
+      handleChange("logo", file);
+      setLogo(file);
+    } else {
+      console.error("Invalid file format:", file);
+    }
+  }}
+  url={uploadGustImageUrl}
+/>
+
           </div>
         </div>
         <div>

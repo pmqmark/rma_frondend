@@ -14,16 +14,23 @@ const FileUploadField = ({
     url
 }) => {
     const [dragging, setDragging] = useState(false);
-    const [preview, setPreview] = useState(value ? URL.createObjectURL(value) : null);
+    const [preview, setPreview] = useState(
+        value instanceof File ? URL.createObjectURL(value) : null
+      );
+      
     const axiosPrivate = useAxiosPrivate();
 
     useEffect(() => {
-        // Revoke the URL to avoid memory leaks
-        return () => {
-            if (preview) URL.revokeObjectURL(preview);
-        };
-    }, [preview]);
-
+        if (value instanceof File) {
+          const objectUrl = URL.createObjectURL(value);
+          setPreview(objectUrl);
+      
+          return () => URL.revokeObjectURL(objectUrl); // Cleanup URL
+        } else {
+          setPreview(null);
+        }
+      }, [value]);
+      
     const handleDragEnter = (e) => {
         e.preventDefault();
         setDragging(true);
