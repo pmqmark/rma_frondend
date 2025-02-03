@@ -1,4 +1,5 @@
-export const baseUrl = 'https://development-server.qmarkdesk.com'
+export const baseUrl = 'https://rmaserver-bpfec8h3h5haa5d6.centralindia-01.azurewebsites.net/'
+// export const baseUrl = 'https://development-server.qmarkdesk.com'
 // export const baseUrl = 'http://20.244.88.141'
 // export const baseUrl = 'http://localhost:8800'
 
