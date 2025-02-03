@@ -16,7 +16,7 @@ const AboutPart = () => {
       </div>
       <div className="flex flex-col mb-5 lg:mb-0">
         <h1 data-aos="fade-right" data-aos-duration="700" className="my-5 md:my-8 text-4xl font-[400]">
-          About WSO
+          About RMA
         </h1>
         <div className="flex flex-col md:flex-row">
           {/* Left side text + Scroll option */}
@@ -26,7 +26,7 @@ const AboutPart = () => {
             </p>
 
             <p className="text-xs md:text-sm text-wrap md:w-[90%] mt-3 text-black/80">
-              {/* WSO seeks to identify areas of potential growth, ensure proper allocation of resources, interact with the academia, engage with the governments on legislations and stand by and help the farmer to increase production and productivity through eco-friendly methods. */}
+              {/* RMA seeks to identify areas of potential growth, ensure proper allocation of resources, interact with the academia, engage with the governments on legislations and stand by and help the farmer to increase production and productivity through eco-friendly methods. */}
             </p>
 
             <Link href={`/user/about`} className="bg-primaryColor text-white text-xs md:text-sm p-3 px-5 rounded-lg lg:mt-5 hidden w-fit lg:flex">
@@ -41,7 +41,7 @@ const AboutPart = () => {
                 Want to be a member?
               </h1>
               <p className="my-5 text-white text-xs font-[200]">
-                WSO owes its genesis to the realization that there was a need for an organized movement of partners from across the globe to build a healthy (content for this)
+              RMA 
               </p>
               <Link href={`/user/membership`} className="p-3 px-5 text-primaryColor rounded-lg font-[600] bg-white text-xs">
                 Register as a Member

@@ -91,80 +91,67 @@ export const about_us = [
             {
                 "members": [
                     {
-                        "name": "Ramkumar Menon",
-                        "designation": "Chairman",
-                        "image": "/Assets/wsomembers/Ramkumar-Menon.jpg"
+                        "name": "Faizal Aluva",
+                        "designation": "President",
+                        "image": "/Assets/members/faizal.jpg"
                     },
                     {
-                        "name": "Emmanuel Nambusseril",
-                        "designation": "Chairman- AISEF",
-                        "image": "/Assets/wsomembers/emma.jpg"
+                        "name": "Dr. Mujeeb Ahamed",
+                        "designation": "General Secretary",
+                        "image": "/Assets/members/mujeeb.jpg"
                     },
                     {
-                        "name": "Prakash Namboodiri",
-                        "designation": "Member",
-                        "image": "/Assets/wsomembers/pra.jpg"
+                        "name": "Neethu Jithin",
+                        "designation": "Program Coordinator",
+                        "image": "/Assets/members/neethu.jpg"
                     },
                     {
-                        "name": "Sanjeev Bisht",
-                        "designation": "Member",
-                        "image": "/Assets/wsomembers/SANJEEV-BISHT.jpg"
+                        "name": "Sachin Dharmaratnan",
+                        "designation": "IT Coordinator",
+                        "image": "/Assets/members/sachin.jpg"
                     },
                     {
-                        "name": "Mathew P Jacob",
-                        "designation": "Member",
-                        "image": "/Assets/wsomembers/math.jpg"
+                        "name": "Vinod S",
+                        "designation": "Vice President",
+                        "image": "/Assets/members/vinod.jpg"
                     },
                     {
-                        "name": "Cherian Xavier",
-                        "designation": "Member",
-                        "image": "/Assets/wsomembers/che1.jpg"
+                        "name": "Shajahan Hassan",
+                        "designation": "Joint Secretary",
+                        "image": "/Assets/members/shajahan.jpg"
                     },
                     {
-                        "name": "Mr. Abhishek Poddar",
-                        "designation": "Member",
-                        "image": "/Assets/wsomembers/abhisek_img.jpg"
+                        "name": "Sujith",
+                        "designation": "Joint Treasurer",
+                        "image": "/Assets/members/sujith.jpg",
+                        "style": { "transform": "translateY(100px)" }
                     },
                     {
-                        "name": "Mr. Ganapathy K D",
-                        "designation": "Member",
-                        "image": "/Assets/wsomembers/GANAPATHY.jpg"
+                        "name": "Aby",
+                        "designation": " Executive Member",
+                        "image": "/Assets/members/aby.jpg"
                     },
                     {
-                        "name": "Dr. Venugopal KJ",
-                        "designation": "Member",
-                        "image": "/Assets/wsomembers/venugopal.jpg"
+                        "name": "Shyju",
+                        "designation": "Executive Member",
+                        "image": "/Assets/members/shyju.jpg"
                     },
                     {
-                        "name": "Mr. Nishesh Shah",
-                        "designation": "Member",
-                        "image": "/Assets/wsomembers/Nishesh-Shah.png"
+                        "name": "Santhosh K.R",
+                        "designation": "Treasurer",
+                        "image": "/Assets/members/santhosh.jpg"
                     },
                     {
-                        "name": "Mr. Mayank Srivastava",
-                        "designation": "Member",
-                        "image": "/Assets/wsomembers/Mayank-Srivastava.jpg"
+                        "name": "Shamji",
+                        "designation": "Executive Member",
+                        "image": "/Assets/members/shamji.jpg"
                     },
                     {
-                        "name": "Mr. Nimish Vora",
-                        "designation": "Member",
-                        "image": "/Assets/wsomembers/Nimish-Vora-e.jpg"
+                        "name": "Sujith",
+                        "designation": "Executive Member",
+                        "image": "/Assets/members/sujith1.jpg"
                     },
-                    {
-                        "name": "Karthik Udayakumar",
-                        "designation": "Member",
-                        "image": "/Assets/wsomembers/Karthik-e1.jpg"
-                    },
-                    {
-                        "name": "Parneet Swani",
-                        "designation": "Member",
-                        "image": "/Assets/wsomembers/ParneetSwani.png"
-                    },
-                    {
-                        "name": "Phillip Kuruvilla",
-                        "designation": "Member",
-                        "image": "/Assets/wsomembers/philip.jpg"
-                    },
+                  
                 ]
             }
         ]

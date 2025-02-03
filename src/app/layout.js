@@ -7,8 +7,8 @@ import AOSInitializer from "@/components/AOSInitializer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "WSO",
-  description: "World Spice Organization (WSO)",
+  title: "RMA",
+  description: " (RMA)",
 };
 
 export default function RootLayout({ children }) {

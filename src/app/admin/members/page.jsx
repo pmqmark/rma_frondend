@@ -41,9 +41,15 @@ function Page() {
                         <h2 className="font-semibold text-xl">
                             Member list
                         </h2>
-
+                        <div className="max-sm:hidden">
                     </div>
                 </div>
+            <Link href="/admin/members/addmember">
+              <button className="bg-primary-green px-5 h-fit py-3 ml-4 text-white text-base font-semibold rounded-lg">
+                Add Members
+              </button>
+            </Link>
+          </div>
                 <div className='w-full max-md:overflow-x-scroll'>
                     <MemberTable />
                 </div>

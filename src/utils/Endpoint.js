@@ -1,7 +1,7 @@
-export const baseUrl = 'https://rmaserver-bpfec8h3h5haa5d6.centralindia-01.azurewebsites.net/'
-// export const baseUrl = 'https://development-server.qmarkdesk.com'
+// export const baseUrl = 'https://rmaserver-bpfec8h3h5haa5d6.centralindia-01.azurewebsites.net/'
+// export const baseUrl = 'https://rmaserver-bpfec8h3h5haa5d6.centralindia-01.azurewebsites.net'
 // export const baseUrl = 'http://20.244.88.141'
-// export const baseUrl = 'http://localhost:8800'
+export const baseUrl = 'http://localhost:8800'
 
 //auth
 export const login = '/api/auth/login'
@@ -14,8 +14,15 @@ export const guestNewsRoute = "/api/news"; // <= + /:id
 export const guestEventRoute = "/api/event"; // <= + /:id
 
 // Member Routes
+export const Addmember = "/api/admin/member";
+// Member Routes
 export const memberPublicationRoute = "/api/member/publication";
 export const memberNewsletterRoute = "/api/member/newsletter";
+
+// company Routes
+export const getAllCompany = "/api/company";
+export const CompanyAPI = "/api/admin/company";
+
 
 // Admin Routes
 export const adminNewsRoute = "/api/admin/news";
@@ -37,6 +44,9 @@ export const getAllPublications = '/api/member/publication'
 
 // newsletter
 export const getAllNewsletters = '/api/member/newsletter'
+// GetAllEnquirys
+export const getAllEnquirys = '/api/admin/contact'
+
 
 // common image upload route
 export const uploadImageUrl = '/api/admin/upload'

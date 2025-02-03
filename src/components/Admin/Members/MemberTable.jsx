@@ -70,13 +70,13 @@ const MemberTable = () => {
                             <tr key={index} className='border-t border-gray-400 '>
                                 <td className='pl-5'>
                                     <div className='flex items-center py-3 '>
-                                        {/\.(pdf|doc|docx)$/.test(item.idProof.location) ? (
+                                        {/\.(pdf|doc|docx)$/.test(item?.idProof?.location) ? (
                                             // Render a dummy image for PDF or Word files
                                             <CgProfile size={40} />
                                         ) : (
                                             <img
                                                 className="max-h-10 cursor-pointer rounded-full w-10"
-                                                src={`${baseUrl}${item.idProof.location}`}
+                                                src={`${item?.idProof?.location}`}
                                                 alt="idProof"
                                             />
                                         )}
