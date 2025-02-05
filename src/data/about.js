@@ -38,10 +38,7 @@ export const Logos = [
 
 
 export const Banner = [
-    {
-        id: 1,
-        img: banner1
-    }
+   
 ]
 export const News = [
     {
