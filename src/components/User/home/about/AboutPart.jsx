@@ -66,9 +66,9 @@ const AboutPart = () => {
           </div>
         </div>
 
-        <div className="my-3 lg:w-3/5">
+        {/* <div className="my-3 lg:w-3/5">
           <ScrollLogo />
-        </div>
+        </div> */}
       </div>
 
       <Link href={`/user/about`} className="bg-primaryColor text-white text-xs md:text-sm p-3 px-5 rounded-lg lg:mt-5 block w-fit lg:hidden">
