@@ -143,8 +143,15 @@ function MembershipForm() {
                 label="WhatsApp Number"
                 placeholder="Enter WhatsApp number"
                 type="tel"
-                value={userdata.whatsapp}
-                onChange={(e) => handleChange('whatsapp', e.target.value)}
+                value={userdata.phone}
+                onChange={(e) => handleChange('phone', e.target.value)}
+            />
+            <NormalTextField
+                editable
+                label="Fax"
+                placeholder="Fax"
+                value={userdata.fax}
+                onChange={(e) => handleChange('fax', e.target.value)}
             />
 
             <NormalTextField
